@@ -18,6 +18,7 @@ Write the C Program using Linux IO Systems locking
 Execute the C Program for the desired output. 
 
 # PROGRAM:
+```
 1.To Write a C program that illustrates files copying
 #include <unistd.h>
 #include <sys/stat.h>
@@ -32,7 +33,7 @@ in = open("filecopy.c", O_RDONLY);
 out = open("file.out", O_WRONLY|O_CREAT, S_IRUSR|S_IWUSR);
 while((nread = read(in,block,sizeof(block))) > 0)
 write(out,block,nread);
-exit(0);}```
+exit(0);}
 ```
 
 
