@@ -18,6 +18,7 @@ Write the C Program using Linux IO Systems locking
 Execute the C Program for the desired output. 
 
 # PROGRAM:
+1.To Write a C program that illustrates files copying
 #include <unistd.h>
 #include <sys/stat.h>
 #include <fcntl.h>
@@ -35,7 +36,7 @@ exit(0);}```
 ```
 
 
-
+2.To Write a C program that illustrates files locking
 
 
 
